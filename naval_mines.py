@@ -1,8 +1,6 @@
 import numpy as np 
 import pandas as pd 
 import tensorflow as tf 
-
-
 import matplotlib.pyplot as plt 
 from  sklearn.utils import shuffle
 from sklearn.preprocessing  import LabelEncoder
@@ -10,12 +8,12 @@ from sklearn.model_selection import train_test_split
 #import tensorflow.compat.v1 as tf
 #tf.disable_v2_behavior()
 #from __future__ import absolute_import, division, print_function, unicode_literals
-try:
-    import tensorflow.compat.v1 as tf
-    print(tf.__version__)
-except Exception:
-  pass
-  tf.disable_v2_behavior()
+# try:
+#     import tensorflow.compat.v1 as tf
+#     print(tf.__version__)
+# except Exception:
+#   pass
+#   tf.disable_v2_behavior()
 
 
 def read_dataset():
